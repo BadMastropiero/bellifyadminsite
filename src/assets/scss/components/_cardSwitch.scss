@@ -1,0 +1,68 @@
+  .check-trail {
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 18px;
+    background: $white;
+    border-radius: 2.5em;
+    border: 2px solid $bg-buttonLess;
+    transition: all .5s ease;
+    cursor: pointer;
+    margin-bottom: 0;
+    &.header{
+      background: $text-gray;
+      border: 2px solid $white;
+    }
+  }
+  .check-handler {
+    display: flex;
+    margin-left: -4px;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: $bg-buttonLess;
+    border-radius: 50%;
+    transition: all .5s ease;
+    &.header{
+      background: $white;
+      &:before{
+        color: $text-gray;
+        font-size: 14px;
+        font-family: $text;
+        margin-top: 2px;
+        font-weight: 700;
+      }
+    }
+    &:before {
+      content: "\00D7";
+      color: $white;
+      font-size: 14px;
+      font-weight: 700;
+      width: 30.8px;
+      text-align: center;
+    }
+  }
+  input[type="checkbox"]:checked + .check-trail {
+    background: $white;
+    border: 2px solid $switch-active;
+    &.header{
+      background: $text-gray;
+      border: 2px solid $white;
+    }
+    .check-handler {
+      margin-left: 50%;
+      background: $switch-active;
+      width: 20px;
+      height: 20px;
+      &.header{
+        background: $white;
+        font-weight: 700;
+      }
+      &::before {
+        content: "\2713";
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  }

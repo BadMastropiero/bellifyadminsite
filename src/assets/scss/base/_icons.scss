@@ -1,0 +1,288 @@
+@import "../placeholders/icons.scss";
+@import "../base/variables.scss";
+.pencil {
+    cursor: pointer;
+    &:before {
+        background-color: #ffe4b4;
+        background-image: url("../../img/brand/emails/pencil.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 23px;
+        width: 23px;
+    }
+    &.facture {
+        &:before {
+            height: 35px;
+            width: 35px;
+        }
+    }
+}
+
+.thrash {
+    cursor: pointer;
+    &:before {
+        background-color: #ffe4b4;
+        background-image: url("../../img/brand/emails/trash.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 23px;
+        width: 23px;
+    }
+    &.facture {
+        &:before {
+            height: 35px;
+            width: 35px;
+        }
+    }
+}
+
+.dots {
+    cursor: pointer;
+    &:before {
+        background-color: #535353;
+        background-image: url("../../img/brand/emails/dots.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 23px;
+        width: 23px;
+    }
+}
+
+.view {
+    &:before {
+        background-image: url("../../img/brand/emails/eye.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 18px;
+        width: 40px;
+    }
+}
+
+.download {
+    cursor: pointer;
+    &:before {
+        background-color: #ffe4b4;
+        background-image: url("../../img/brand/facturation/download.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 23px;
+        margin: 0 auto;
+        width: 23px;
+    }
+}
+
+.notebook {
+    cursor: pointer;
+    &:before {
+        background-color: #f2cd7a;
+        background-image: url("../../img/brand/facturation/notebook.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 23px;
+        margin: 0 auto;
+        width: 23px;
+    }
+}
+
+.close-envelope {
+    cursor: pointer;
+    &:before {
+        background-image: url("../../img/brand/facturation/mensaje-sinleer@2x.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        content: "";
+        display: block;
+        height: 12px;
+        margin: 0 auto;
+        width: 17px;
+    }
+}
+
+.open-envelope {
+    cursor: pointer;
+    &:before {
+        background-image: url("../../img/brand/facturation/mensaje-leido@2x.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        content: "";
+        display: block;
+        height: 19px;
+        margin: 0 auto;
+        width: 17px;
+    }
+}
+
+.chevron-down {
+    cursor: pointer;
+    display: inline-flex;
+    &:before {
+        background-image: url("../../img/brand/facturation/desplegable.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        content: "";
+        display: block;
+        height: 8px;
+        margin: 0.625rem;
+        width: 5px;
+    }
+}
+
+.load {
+    cursor: pointer;
+    display: inline-block;
+    transform: translateY(3px);
+    &:before {
+        background-image: url("../../img/brand/facturation/load.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        content: "";
+        display: block;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+.drawer-icon {
+    &-home {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/home.svg");
+            height: 12.022px;
+            width: 16px;
+            @extend %icon_base;
+        }
+    }
+    &-product {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/products.svg");
+            height: 18.258px;
+            width: 19px;
+            @extend %icon_base;
+        }
+    }
+    &-store {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/store.svg");
+            height: 15px;
+            width: 19px;
+            @extend %icon_base;
+        }
+    }
+    &-request {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/requests.svg");
+            height: 11.525px;
+            width: 16px;
+            @extend %icon_base;
+        }
+    }
+    &-users {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/users.svg");
+            height: 14.258px;
+            width: 16px;
+            @extend %icon_base;
+        }
+    }
+    &-apps {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/apps.svg");
+            height: 15.999px;
+            width: 16px;
+            @extend %icon_base;
+        }
+    }
+    &-services {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/services.svg");
+            height: 16px;
+            width: 16px;
+            @extend %icon_base;
+        }
+    }
+    &-school {
+        &:before {
+            background-image: url("#{$img-url-base}brand/drawer/school.svg");
+            height: 16px;
+            width: 16px;
+            @extend %icon_base;
+        }
+    }
+}
+
+.i-searchHeader{
+    &::before {
+      content: "";
+      background-image: url('#{$img-url}/search-header.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 30px;
+      margin: 0 auto;
+      width: 30px;
+      background-color: #2f2f2f;
+      border-radius: 50%;
+    }
+  }
+  .i-messageHeader{
+    &::before {
+      content: "";
+      background-image: url('#{$img-url}/sms-header.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 30px;
+      margin: 0 auto;
+      width: 30px;
+      background-color: #2f2f2f;
+      border-radius: 50%;
+    }
+  }
+  
+  .i-notificationHeader{
+    &::before {
+      content: "";
+      background-image: url('#{$img-url}/notification-header.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 30px;
+      margin: 0 auto;
+      width: 30px;
+      background-color: #2f2f2f;
+      border-radius: 50%;
+    }
+  }
+  
+  .i-shoppingHeader{
+    &::before {
+      content: "";
+      background-image: url('#{$img-url}/shopping-header.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 30px;
+      margin: 0 auto;
+      width: 30px;
+      background-color: #2f2f2f;
+      border-radius: 50%;
+    }
+  }
+  

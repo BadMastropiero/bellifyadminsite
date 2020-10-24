@@ -1,0 +1,93 @@
+// Override Boostrap variables
+@import "~bootstrap/scss/mixins";
+@import "~@coreui/coreui/scss/variables";
+
+//colors
+$black: #000;
+$white: #fff;
+$bg-red: #ff6866;
+$bg-yellow: #ffe5b4;
+$border-gray: #ebebeb;
+$text-gray: #434343;
+$bg-gray: #eeeeee;
+$border-card: #c8ced3;
+$light-blue: #67cfcc;
+$dark-blue: #5c7c89;
+$border-bottom: #e5e5e5;
+$bg-buttonLess: #d2d2d2;
+$switch-active: #67cfcc;
+$button-close-red: #e94d4b;
+$button-close-yellow: #f1b854;
+$bg-shadow: rgba(
+    $color: #525252,
+    $alpha: 0.8,
+);
+$buttonAction: #bfbfbf;
+$light-black: #313131;
+$border-card: #ffe5b4;
+$border-input: #e5e5e5;
+$border-payMethod: #ffe5b4;
+$border-title: #bfbfbf;
+$bg-icon-header: #ff9d9c;
+$section-title: #707070;
+$table-row: #f7f7f7;
+$validate: #68cfcc;
+$revision: #f2ce7a;
+$table-foot: #535353;
+$coreui-blue: #20a8d8;
+//fonts
+$text: "Poppins", sans-serif;
+
+//url
+$img-url: "../../img/brand";
+
+//Sizes
+$base-font-size: 14px;
+// Override Boostrap variables
+@import "~bootstrap/scss/mixins";
+@import "~@coreui/coreui/scss/variables";
+
+//colors
+$black: #000;
+$white: #fff;
+$bg-red: #ff6866;
+$bg-yellow: #f2cd7a;
+$border-gray: #ebebeb;
+$text-gray: #434343;
+$bg-gray: #eeeeee;
+$border-card: #c8ced3;
+$light-blue: #67cfcc;
+$dark-blue: #5c7c89;
+$border-bottom: #e5e5e5;
+$bg-buttonLess: #d2d2d2;
+$switch-active: #67cfcc;
+$button-close-red: #e94d4b;
+$button-close-yellow: #f1b854;
+$bg-shadow: rgba(
+    $color: #525252,
+    $alpha: 0.8,
+);
+$buttonAction: #bfbfbf;
+$light-black: #313131;
+$border-card: #ffe5b4;
+$border-input: #e5e5e5;
+$border-payMethod: #ffe5b4;
+$border-title: #bfbfbf;
+$bg-icon-header: #ff9d9c;
+$section-title: #707070;
+$table-row: #f7f7f7;
+$validate: #68cfcc;
+$revision: #f2ce7a;
+$table-foot: #535353;
+$table-border: #d0d0d0;
+$separator: #2f2f2f;
+//fonts
+$text: "Poppins", sans-serif;
+
+//url
+$img-url: "../../img/brand";
+
+$img-url-base: "../../img/";
+
+//Sizes
+$base-font-size: 14px;

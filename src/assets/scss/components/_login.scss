@@ -1,0 +1,130 @@
+// Variables
+@import '../base/variables';
+.Login {
+    &-padding {
+        padding-left: 0;
+        padding-right: 0
+    }
+    &-image {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    &-content {
+        background: $bg-gray;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-wrapper {
+        max-width: 390px;
+        width: 100%;
+    }
+    &-wrapperLogo {
+        margin-bottom: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 173px;
+    }
+    &-wrapperForm {
+        background-color: $white;
+        border-radius: 5px;
+        margin-bottom: 7px;
+        padding: 44px 31px 24px 29px;
+        width: 100%;
+    }
+    &-form {
+        width: 100%;
+    }
+    &-formGroup {
+        margin-bottom: 12px;
+        &.position-relative {
+            position: relative;
+            margin-bottom: 0;
+        }
+    }
+    &-formTitle {
+        font-family: $text;
+        font-size: 16px;
+        margin-bottom: 25px;
+        margin-left: 2px;
+    }
+    &-formInput {
+        border: 1px solid $border-gray;
+        border-radius: 4px;
+        font-family: $text;
+        font-size: 12px;
+        padding: 15px;
+        width: 100%;
+        &::placeholder {
+            color: $text-gray;
+            font-weight: 500;
+        }
+    }
+    &-rememberPassword {
+        color: $text-gray;
+        display: block;
+        font-size: 12px;
+        font-family: $text;
+        text-decoration: underline;
+        margin-bottom: 17px;
+        &:hover {
+            color: $light-black;
+        }
+    }
+    &-formSubmit {
+        background-color: $bg-red;
+        border: none;
+        border-radius: 28px;
+        color: $white;
+        display: block;
+        font-family: $text;
+        margin: 0 auto;
+        padding: 12px 33px;
+    }
+    &-register {
+        background-color: $white;
+        border-radius: 5px;
+        padding-bottom: 34px;
+        padding-top: 45px;
+        width: 100%;
+    }
+    &-registerTitle {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+    &-buttonRegister {
+        background-color: $bg-yellow;
+        border: none;
+        border-radius: 28px;
+        color: $white;
+        display: block;
+        font-family: $text;
+        font-size: 12px;
+        margin: 0 auto;
+        padding: 12px 27px;
+    }
+    @media (max-width: 1350.95px) {
+        &-content {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        &-wrapper {
+            max-width: 600px;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        &-content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}

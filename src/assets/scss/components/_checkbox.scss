@@ -1,0 +1,152 @@
+// Variables
+@import '../base/variables';
+.Card{
+    &-container{
+        font-size: 12px;
+        font-family: $text;
+        font-weight: 700;
+        color: $text-gray;
+        margin-bottom: 30px;
+        margin-left: 30px;
+
+        &.margin{
+            margin-bottom: 5px;
+        }
+
+        &.formOptions{
+            font-weight: unset;
+            margin-bottom: 17px;
+            margin-left: 32px;
+        }
+
+        &.purchase{
+            margin-left: 32px;
+            margin-bottom: 12px;
+        }
+
+        &.noFontWeight{
+            font-weight: unset;
+            width: 100%;
+            max-width: 427px;
+            margin-bottom: 14px;
+        }
+
+        &.login{
+            margin-left: 16px;
+            font-weight: unset;
+            margin-bottom: 22px;
+        }
+    }
+
+    &-facture{
+      font-weight: 400;
+    }
+
+    &-container &-checkContainer{
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      &-container &-checkContainer{
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+
+      &-checkmark{
+        position: absolute;
+        top: 13px;
+        left: 0;
+        height: 10px;
+        width: 10px;
+        background-color: $white;
+        border: 1px solid $bg-buttonLess;
+        ;
+
+        &.top{
+            top: 3px;
+        }
+        &.fact{
+          top: 4px;
+        }
+        &.modalFact{
+          top: 14px;
+          right: 20px;
+        }
+
+        &.formOptions{
+            top: 7px;
+        }
+        &.noFontWeight{
+            top: 8px;
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            display: none;
+        }
+        &.login{
+            top: 7px;
+        }
+
+        &.sales{
+            top: 21px;
+            left: 20px
+        }
+      }
+
+      &-container  &-checkContainer:checked ~ &-checkmark{
+        background-color: $text-gray;
+        border: 1px solid $text-gray;
+
+            &:after{
+                display: block;
+            }
+      }
+
+      &-container &-checkmark{
+            &:after{
+                left: 2.5px;
+                top: 0px;
+                width: 3px;
+                height: 7px;
+                border: solid $white;
+                border-width: 0px 1.5px 1.5px 0;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+            }
+
+            &.login{
+                &:after{
+                    left: 2.5px;
+                    top: 0px;
+                    width: 3px;
+                    height: 7px;
+                    border: solid $white;
+                    border-width: 0px 1px 1px 0;
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                }
+            }
+          }
+
+    @include media-breakpoint-down(sm){
+        &-container{
+            &.noFontWeight{
+                max-width: 200px;
+            }
+        }
+    }
+}

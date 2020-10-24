@@ -1,0 +1,18 @@
+<svg id="boton-borrar-mini" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_42" data-name="Rectangle 42" width="12.104" height="12.756" fill="#535353"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_20" data-name="Ellipse 20" cx="11.5" cy="11.5" r="11.5" fill="#ffe4b4"/>
+  <g id="Group_53" data-name="Group 53" transform="translate(5.484 5.376)">
+    <g id="Group_52" data-name="Group 52" clip-path="url(#clip-path)">
+      <path id="Path_93" data-name="Path 93" d="M11.572,3.762H.532a.532.532,0,1,1,0-1.064h11.04a.532.532,0,0,1,0,1.064" transform="translate(0 -1.262)" fill="#535353"/>
+      <path id="Path_94" data-name="Path 94" d="M10.623,2.184a1.4,1.4,0,0,0-2.743,0L6.836,1.972a2.464,2.464,0,0,1,4.829,0Z" transform="translate(-3.199 0)" fill="#535353"/>
+      <path id="Path_95" data-name="Path 95" d="M3.218,14.459A1.078,1.078,0,0,1,2.16,13.427L1.609,4.2a.531.531,0,0,1,.5-.563.523.523,0,0,1,.563.5l.551,9.222,7.17.032.547-9.254A.532.532,0,0,1,12,4.2l-.551,9.222a1.082,1.082,0,0,1-1.057,1.032H3.218Z" transform="translate(-0.752 -1.703)" fill="#535353"/>
+      <path id="Path_96" data-name="Path 96" d="M6.8,13.791a.532.532,0,0,1-.53-.5L5.917,6.948a.532.532,0,1,1,1.062-.059l.354,6.34a.532.532,0,0,1-.5.561H6.8" transform="translate(-2.768 -2.988)" fill="#535353"/>
+      <path id="Path_97" data-name="Path 97" d="M14.7,13.79h-.03a.532.532,0,0,1-.5-.561l.354-6.34a.532.532,0,1,1,1.062.059l-.354,6.341a.532.532,0,0,1-.531.5" transform="translate(-6.629 -2.988)" fill="#535353"/>
+      <path id="Path_98" data-name="Path 98" d="M10.907,13.791a.532.532,0,0,1-.532-.532V6.918a.532.532,0,0,1,1.064,0v6.341a.532.532,0,0,1-.532.532" transform="translate(-4.855 -2.988)" fill="#535353"/>
+    </g>
+  </g>
+</svg>

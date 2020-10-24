@@ -1,0 +1,73 @@
+@import "../../base/variables";
+
+.TableContainer {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.Table {
+    border-bottom: 1px solid #EEEEEE;
+    &-header {
+        background-color: #E5E5E5;
+    }
+    &-body .table {
+        margin: 0;
+    }
+    &-row {
+        vertical-align: middle;
+    }
+    &-row .Table-headerCell {
+        border: none;
+        border-bottom: 1px solid #EEEEEE;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 400;
+        height: 40px;
+        width: 200px;
+        &.date {
+            min-width: 50px;
+        }
+        &.request {}
+        &.facture {}
+        &.expiration {}
+        &.client {}
+        &.description {
+            min-width: 300px;
+        }
+        &.total {
+            width: 100px;
+        }
+        &.state {
+            width: 200px;
+        }
+        &.empty {
+            width: 100px;
+        }
+        &.factureSent {
+            width: 175px;
+        }
+    }
+    &-row .Table-cell {
+        vertical-align: middle;
+        border-bottom: 1px solid #EEEEEE;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    &-button {
+        border: 1px solid #68CFCC;
+        background-color: transparent;
+        border-radius: 50px;
+        color: #000000;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 300;
+        height: 27px;
+        width: 93px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .Table .Table-headerCell {
+        font-size: 10px;
+    }
+}

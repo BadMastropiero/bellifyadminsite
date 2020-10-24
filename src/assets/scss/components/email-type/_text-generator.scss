@@ -1,0 +1,15 @@
+.TextGenerator {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  &-btn {
+    background-color: #F2CD7A;
+    border: 1px solid #F2CD7A;
+    border-radius: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    height: 25px;
+    width: 203px;
+  }
+}

@@ -1,0 +1,33 @@
+@import "../main";
+.Modal-download {
+    align-items: center;
+    background-color: $button-close-red;
+    border: 1px solid $button-close-red;
+    border-radius: 50px;
+    color: $white;
+    display: flex;
+    flex-direction: row;
+    font-family: $text;
+    @include font-size-rem(12px);
+    font-weight: 600;
+    height: 35px;
+    margin-top: 20px;
+    width: 174px;
+}
+
+.i-download {
+    cursor: pointer;
+    margin-right: 5px;
+    &:before {
+        border-radius: 50%;
+        background-color: transparent;
+        background-image: url("../../img/brand/facturation/download-white.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        content: "";
+        display: block;
+        height: 18px;
+        margin: 0 auto;
+        width: 15px;
+    }
+}

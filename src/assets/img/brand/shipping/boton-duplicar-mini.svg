@@ -1,0 +1,15 @@
+<svg id="boton-duplicar-mini" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_40" data-name="Rectangle 40" width="11.832" height="13.627" transform="translate(0 0)" fill="#535353"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_18" data-name="Ellipse 18" cx="11.5" cy="11.5" r="11.5" fill="#ffe4b4"/>
+  <g id="Group_49" data-name="Group 49" transform="translate(6.217 4.565)">
+    <g id="Group_48" data-name="Group 48" clip-path="url(#clip-path)">
+      <path id="Path_86" data-name="Path 86" d="M2.19,9.66H.941V.941H7.685V2.279h.941V.471A.47.47,0,0,0,8.156,0H.471A.47.47,0,0,0,0,.471v9.66a.47.47,0,0,0,.471.471H2.19Z" transform="translate(0 0)" fill="#535353"/>
+      <path id="Path_87" data-name="Path 87" d="M17.88,24.752a.235.235,0,0,1-.235-.235V21.693a.235.235,0,0,1,.235-.235H20.7a.235.235,0,0,1,0,.471H18.116v2.588a.236.236,0,0,1-.235.235" transform="translate(-9.342 -11.36)" fill="#535353"/>
+      <path id="Path_88" data-name="Path 88" d="M12.145,17.031H7.284a.47.47,0,0,1-.471-.471V6.9a.47.47,0,0,1,.471-.471h7.685a.47.47,0,0,1,.471.471v6.837a.469.469,0,0,1-.138.333l-2.823,2.823a.469.469,0,0,1-.333.138M7.754,16.09h4.2L14.5,13.542V7.371H7.754Z" transform="translate(-3.607 -3.404)" fill="#535353"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+.AddingCard {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #EEEEEE;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 30px);
+    justify-content: center;
+    min-height: 267px;
+    width: 100%;
+    &-circle {
+        align-items: center;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        justify-content: center;
+        width: 120px;
+    }
+    &-plus {
+        color: white;
+    }
+}

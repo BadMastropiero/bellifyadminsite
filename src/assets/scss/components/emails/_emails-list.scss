@@ -1,0 +1,73 @@
+.EmailType {
+    background-color: white;
+    border: 1px #707070;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    padding: 26px 23px 19px 22px;
+    &-features {
+        border-radius: 0;
+    }
+    &-feature {
+        margin-bottom: 10px;
+        border: 1px solid #FFE5B4;
+    }
+    &-text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    &-footer {
+        border-top: 1px solid #EEEEEE;
+        margin-top: 46px;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    &-save {
+        background-color: #FF6866;
+        border: 1px solid #FF6866;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 600;
+        height: 35px;
+        margin-right: 20px;
+        width: 96px;
+    }
+    &-link {
+        margin: 2px;
+    }
+    &-reference {
+        color: #000000;
+        text-decoration: underline;
+        &:hover {
+            color: #000000;
+        }
+    }
+    &-preview {
+        align-self: center;
+        border-radius: 4px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    &-view {
+        background-color: #67CFCC;
+        border: 1px solid #67CFCC;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        height: 35px;
+        width: 147px;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,43 @@
+.Facture-Content {
+  border: none;
+}
+
+.FactureDetails {
+  padding: 28px 96px 0 0;
+  &-colors {
+    align-content: center;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  &-blue {
+    &:before {
+      border-radius: 50%;
+      background-color: #3e73b9;
+      content: "";
+      display: block;
+      height: 10px;
+      margin: 0 auto;
+      width: 10px;
+    }
+  }
+  &-red {
+    &:before {
+      border-radius: 50%;
+      background-color: #E94D4B;
+      content: "";
+      display: block;
+      height: 10px;
+      margin: 0 auto;
+      width: 10px;
+    }
+  }
+  &-textarea {
+    border: 1px solid $border-bottom;
+    resize: none;
+    height: 300px;
+    padding: 23px 38px 27px 28px;
+    width: 100%;
+  }
+}

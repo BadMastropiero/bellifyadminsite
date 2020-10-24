@@ -1,0 +1,14 @@
+<svg id="boton-buscar-mini" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_35" data-name="Rectángulo 35" width="12.801" height="13.017" fill="#535353"/>
+    </clipPath>
+  </defs>
+  <circle id="Elipse_16" data-name="Elipse 16" cx="11.5" cy="11.5" r="11.5" fill="#ffe4b4"/>
+  <g id="Grupo_42" data-name="Grupo 42" transform="translate(5.368 4.819)">
+    <g id="Grupo_41" data-name="Grupo 41" clip-path="url(#clip-path)">
+      <path id="Trazado_75" data-name="Trazado 75" d="M5.584,11.171a5.585,5.585,0,1,1,5.587-5.585,5.592,5.592,0,0,1-5.587,5.585m0-10.05a4.465,4.465,0,1,0,4.465,4.466A4.473,4.473,0,0,0,5.586,1.121" transform="translate(0 0)" fill="#535353"/>
+      <path id="Trazado_76" data-name="Trazado 76" d="M18.958,19.9a.559.559,0,0,1-.4-.164l-3.12-3.119a.56.56,0,0,1,.792-.792l3.12,3.119a.56.56,0,0,1-.4.956" transform="translate(-6.718 -6.888)" fill="#535353"/>
+    </g>
+  </g>
+</svg>

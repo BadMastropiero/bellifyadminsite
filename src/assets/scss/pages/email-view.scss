@@ -1,0 +1,57 @@
+@import "../base/variables";
+
+.EmailView {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 7px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 31px;
+
+    &-header {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        margin-bottom: 32px;
+    }
+    &-button {
+        background-color: #D2D2D2;
+        border: 1px #707070;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+        height: 35px;
+        margin-right: 10px;
+        width: 117px;
+    }
+    &-content {
+        font-weight: 600;
+        margin-left: 12px;
+        margin-top: 7px;
+    }
+    &-text {
+        border: 1px solid $border-bottom;
+        resize: none;
+        height: 500px;
+        width: 100%;
+    }
+    &-check {
+      top: 13px;
+      left: 0;
+      height: 10px;
+      width: 10px;
+      background-color: #fff;
+      border: 1px solid #d2d2d2;
+    }
+    &-textarea {
+      border: 1px solid $border-bottom;
+      resize: none;
+      height: 300px;
+      padding: 23px 38px 27px 28px;
+      width: 100%;
+    }
+    &-foot {
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+    }
+}

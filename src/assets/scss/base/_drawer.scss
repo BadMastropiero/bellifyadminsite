@@ -1,0 +1,47 @@
+@import "../../../../node_modules/@coreui/coreui/scss/coreui.scss";
+@import "../base/icons";
+@import "../base/variables";
+.sidebar {
+    background: #535353 !important;
+    .nav-title {
+        color: #ff9d9c !important;
+        font-family: $text !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+    }
+    // &:before {
+    //     background-color: #434343;
+    //     background-position: center;
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    //     border-radius: 50%;
+    //     content: "\2212";
+    //     display: block;
+    //     height: 24px;
+    //     text-align: center;
+    //     transform: translateY(32px) translateX(170px);
+    //     width: 24px;
+    // }
+    .nav-item .active {
+        background: transparent !important;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .nav-dropdown-toggle {
+        height: 45px;
+        &:hover {
+            background: transparent !important;
+        }
+        &:before {
+            background-image: url("../../img/brand/drawer/chevron-down2.svg") !important;
+            transform: rotate(0deg);
+        }
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    // >.nav-dropdown-toggle::before {
+    //     transform: rotate(0deg);
+    // }
+}

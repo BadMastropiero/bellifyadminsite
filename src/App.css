@@ -1,0 +1,16 @@
+@import url(~@coreui/icons/css/coreui-icons.css);
+@import url(~flag-icon-css/css/flag-icon.min.css);
+@import url(~font-awesome/css/font-awesome.min.css);
+@import url(~simple-line-icons/css/simple-line-icons.css);
+html body .app.flex-row.align-items-center {
+  height: 100vh; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #root {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }

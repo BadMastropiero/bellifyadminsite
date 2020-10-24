@@ -1,0 +1,495 @@
+
+@import "../main";
+.Modal {
+    background-color: $white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 730px !important;
+    width: 100% !important;
+    & .modal-content{
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }    
+    &-bodyHeader {
+        margin-bottom: 25px;
+        margin-top: 23px;
+    }
+    &-testBtn {
+        background-color: #D2D2D2;
+        border: 1px solid $border-gray;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 600;
+        height: 35px;
+        margin-right: 21px;
+        width: 117px;
+    }
+    &-factureNumber {
+        color: #000000;
+        font-family: $text;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &-shadow {
+        position: fixed;
+        background-color: $bg-shadow;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+    &-headerWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $bg-red;
+        padding: 0px 34px 0 34px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height: 54px;
+
+        &.yellow{
+            background-color: $bg-yellow;
+            padding: 19px 34px 20px 34px;
+        }
+        &.popups {
+            padding: 0px 26px;
+            height: 73px;
+        }
+    }
+    &-title {
+        font-size: 16px;
+        font-weight: 700;
+        font-family: $text;
+        color: $white;
+    }
+    &-buttonClose {
+        width: 23px;
+        height: 23px;
+        background-color: $button-close-red;
+        border-radius: 50%;
+        border: 1px solid $button-close-red;
+        color: $white;
+        font-family: $text;
+        font-size: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &.yellow {
+            background-color: $button-close-yellow;
+            border: 1px solid $button-close-yellow;
+        }
+        &.gray {
+            color: $text-gray;
+            background-color: $bg-gray;
+            border: 1px solid $bg-gray;
+            margin-left: auto;
+        }
+    }
+    &-body {
+        padding-top: 35px;
+        padding-right: 34px;
+        padding-left: 34px;
+    }
+    &-footer{
+        border: none;
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    &-text {
+        color: $black;
+        font-family: $text;
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 27px;
+        font-weight: 300;
+    }
+    &-textArea {
+        width: 100%;
+        height: 219px;
+        border: 1px solid $border-bottom;
+        resize: none;
+        padding: 17px 0 0 15px;
+        &::placeholder {
+            font-size: 12px;
+            color: $text-gray;
+            font-weight: 600;
+        }
+    }
+    &-wrapperOptions {
+        margin-bottom: 14px;
+    }
+    &-option {
+        color: $text-gray;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: $bg-gray;
+        border: 2px solid $bg-gray;
+        padding: 14px 60px;
+        margin-bottom: 14px;
+        font-family: $text;
+        &.bgWhite {
+            background-color: $white;
+            font-weight: 500;
+        }
+    }
+    &-wrapper {
+        display: flex;
+        flex-direction: row;
+        padding: 39px 29px;
+        background-color: $bg-gray;
+        margin-bottom: 23px;
+    }
+    &-itemName {
+        font-family: $text;
+        font-size: 10px;
+        background-color: $white;
+        border-radius: 4px;
+        border: 2px solid $border-bottom;
+        font-weight: 400;
+        padding: 10px 56px 15px 15px;
+        margin-right: 10px;
+        margin-bottom: 0;
+        &.key {
+            padding: 10px 108px 15px 15px;
+        }
+        &.terminal {
+            padding: 10px 128px 15px 15px;
+        }
+    }
+    &-itemCode {
+        display: block;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: $text;
+    }
+    &-wrapperButtons {
+        padding-bottom: 27px;
+        border-bottom: 1px solid $bg-buttonLess;
+    }
+    &-wrapperButton {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    &-payMethodType {
+        margin-left: 17px;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: $text;
+    }
+    &Footer {
+        border-top: 1px solid $border-gray;
+        display: flex;
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-top: 16px;
+        justify-content: center;
+        margin-top: 38px;
+        margin-right: 34px;
+        margin-left: 34px;
+        &.factureCard {
+            padding-top: 16px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    &-button {
+        color: $white;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: $text;
+        background-color: $bg-red;
+        padding: 12px 23px 12px 23px;
+        border-radius: 50px;
+        border: 1px solid $bg-red;        
+        &.padding {
+            padding: 10px 48px;
+        }
+        &:hover {
+            color: $white;
+            background-color: $bg-red;
+            text-decoration: none;
+        }
+    }
+    &-titleSend {
+        font-size: 16px;
+        font-family: $text;
+        font-weight: 600;
+        color: $white;
+    }
+    &-wrapperSend {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px 44px 0px;
+    }
+    &-textSend {
+        color: $text-gray;
+        @include font-size-rem(12px);
+        font-family: $text;
+        font-weight: 700;
+        // max-width: 636px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 28px;
+    }
+    &-list {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: $text;
+        margin-bottom: 15px;
+        color: $text-gray;
+    }
+    &-listItem {
+        text-decoration: underline;
+        font-weight: 300;
+        color: $text-gray;
+        margin-left: 7px;
+    }
+    &-shippingCost {
+        padding-bottom: 22px;
+        border-bottom: 1px solid $bg-gray;
+    }
+    &-input {
+        width: 330px;
+        height: 50px;
+        border: 1px solid $border-input;
+        padding: 12px 17px;
+        margin-bottom: 7px;
+        background-image: url('../../img/brand/shipping/€.png');
+        background-repeat: no-repeat, repeat;
+        background-position: right 20px top 50%, 0 0;
+        &.margin {
+            margin-right: 10px;
+        }
+        &::placeholder {
+            font-size: 10px;
+            font-weight: 300;
+            color: $text-gray;
+        }
+    }
+    &-boxPrice {
+        margin-top: 28px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid $border-input;
+    }
+    &-billText {
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    &-buttonBill {
+        padding: 10px 24px;
+        background-color: $bg-red;
+        border: 1px solid $bg-red;
+        font-family: $text;
+        font-weight: 500;
+        font-size: 12px;
+        color: $white;
+        border-radius: 50px;
+        margin-top: 25px;
+    }
+    &-buttonBillIcon {
+        margin-right: 10px;
+    }
+    &-paymentServices {
+        padding: 42px 37px 42px 37px;
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 40%;
+            left: -12%;
+            background-image: url("../../img/brand/myAccount/boton-siguiente.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 31px;
+            margin: 0 auto;
+            width: 31px;
+        }
+        &::after {
+            position: absolute;
+            top: 40%;
+            right: -12%;
+            background-image: url("../../img/brand/myAccount/boton-siguiente-right.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 31px;
+            margin: 0 auto;
+            width: 31px;
+        }
+    }
+    &-nameServiceWrapper {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+    &-circle {
+        width: 62px;
+        height: 62px;
+        background-color: $bg-gray;
+        border: 1px solid $bg-gray;
+        border-radius: 50%;
+    }
+    &-wrapperServiceText {
+        display: flex;
+        flex-direction: column;
+        margin-left: 17px;
+    }
+    &-serviceName {
+        font-weight: 500;
+        font-family: $text;
+        font-size: 16px;
+        color: $text-gray;
+        margin-bottom: 15px;
+    }
+    &-price {
+        font-weight: 500;
+        font-family: $text;
+        font-size: 16px;
+        color: $text-gray;
+    }
+    &-month {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: $text;
+    }
+    &-date {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: $text;
+        color: $text-gray;
+        margin-bottom: 0;
+    }
+    &-contractText {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: $text;
+        color: $text-gray;
+    }
+    &-contractChanger{
+        color: black;
+        text-decoration: underline;
+        &:hover{
+            color: black;
+        }
+    }
+    &-paymentServicesText {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: $text;
+        color: #030303;
+        // max-width: 653px;
+        width: 100%;
+    }
+    &-annualPayment {
+        padding: 32px 30px;
+    }
+
+    &-listZone{
+        list-style: none;
+        padding: 0;
+        margin-left: 40px;
+    }
+
+&-list{
+        font-size: 12px;
+        font-weight: 600;
+        font-family: $text;
+        margin-bottom: 15px;
+        color: $text-gray; 
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: -15px;
+            width: 7px;
+            height: 7px;
+            color: #eee;
+            background-color: #eee;
+            border-radius: 50%;
+        }
+
+
+    }
+
+    &-tableMonth{
+        padding: 37px 20px 0px 27px;
+
+        &::before{
+            position: absolute;
+            top: 40%;
+            left: -7%;
+            background-image: url("../../img//brand/myAccount/boton-siguiente.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 31px;
+            margin: 0 auto;
+            width: 31px;
+        }
+
+        &::after{
+            position: absolute;
+            top: 40%;
+            right:-7%;
+            background-image: url("../../img/brand/myAccount/boton-siguiente-right.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 31px;
+            margin: 0 auto;
+            width: 31px;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        &-wrapper {
+            flex-wrap: wrap;
+        }
+        &-itemName {
+            &.terminal {
+                margin-bottom: 3px;
+                padding: 10px 111px 15px 15px;
+            }
+        }
+    }
+}
+
+.ModalBody {
+    &.factureModal {
+        padding: 0 34px 0 34px;
+    }
+}
+
+    @include media-breakpoint-down(lg) {
+    .Modal {
+        width: calc(100% - 2rem);
+        left: unset;
+        max-width: unset;
+
+        &-shadow {
+        padding: 1rem;
+        }
+    }
+}

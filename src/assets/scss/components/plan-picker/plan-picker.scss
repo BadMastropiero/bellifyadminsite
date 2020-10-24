@@ -1,0 +1,89 @@
+.Container{
+    border: 2px solid #FFE5B4;
+    background-color: #FFFFFF;
+    padding: 0;
+    max-width: 1496px;
+    &:hover{
+        border: 2px solid #EEEEEE;
+    }
+}
+
+.PlanSelector .Plans{
+    border-right: 1px solid #EEEEEE;
+
+    &-feature{
+        border: none;
+        height: 122px;
+        padding-top: 24px;
+        padding-left: 70px;
+        padding-right: 50px;
+        &.active{
+          background-color: #EEEEEE;
+          color: #000000;
+          i{
+            color: #434343;
+          }
+        }
+    }
+    &-content{
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        font-weight: 400;
+        height: 80px;
+        justify-content: space-between;
+        i{
+            color: #FFFFFF;
+        }
+        &.hover{
+            background-color: red;
+        }
+        &.active{
+            background-color: #EEEEEE !important;
+            color: #000000;
+            i{
+                color: #434343;
+            }
+        }
+    }
+    &-selected{
+        font-size: 18px;
+        font-weight: 700;
+        max-width: 100px;
+        width: 100%;
+        margin-right: 15px;
+    }
+    &-contracted{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.Plan{
+    padding: 43px 54px 41px 65px;
+    max-width: 1201px;
+}
+
+.Plan .PlanContainer{
+    border: none;
+    height: 271px;
+    margin-top: 5px;
+
+    //overflow: auto;
+    overflow-x: hidden;
+    &-text{
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
+
+.Plan .tab-content .tab-pane{
+    padding: 0;
+}
+
+.StrongText{
+    font-weight: 700;
+}
+

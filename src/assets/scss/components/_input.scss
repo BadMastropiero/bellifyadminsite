@@ -1,0 +1,41 @@
+.focusInput {
+    border: 1px solid $border-input;
+    padding-top: 10px;
+    padding-left: 15px;
+    position: relative;
+    height: 50px;
+    margin-bottom: 10px;
+    &.modalCost {
+        background-image: url('../../img/brand/shipping/€.png');
+        background-repeat: no-repeat, repeat;
+        background-position: right 20px top 40%, 0 0;
+    }
+    &.margin {
+        margin-bottom: 21px;
+    }
+
+    &.myAccount{
+        width: 100%;
+        max-width: 330px;
+ }
+}
+
+.focusInput-text {
+    font-family: $text;
+    font-size: 10px;
+    font-weight: 300;
+    position: absolute;
+    margin-bottom: 5px;
+}
+
+.input {
+    border: none;
+    width: 100%;
+    font-family: $text;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 14px;
+    &:focus {
+        outline: none;
+    }
+}

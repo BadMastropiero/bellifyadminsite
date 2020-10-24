@@ -1,0 +1,50 @@
+@import "../base/variables";
+@import "../base/mixins";
+.ModalFacture {
+    height: 100%;
+    max-width: 730px;
+    position: relative;
+    //padding: ;
+    &-bodyHeader {}
+    &-check {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    &-warning {
+        font-size: 12px;
+    }
+    &-change {
+        background-color: transparent;
+        border-radius: 50px;
+        border: 1px solid $button-close-red;
+        color: #000000;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 600;
+        height: 35px;
+        margin-left: 53px;
+        transform: translateX(9px);
+        width: 151px;
+    }
+    &-send {
+        background-color: $button-close-red;
+        border-radius: 50px;
+        border: 1px #707070;
+        color: #ffffff;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 600;
+        height: 35px;
+        transform: translateX(15px);
+        width: 96px;
+
+    }
+}
+
+.Modal {
+    top: 6%;
+}
+
+.modal .modal-dialog {
+    max-width: 730px;
+}

@@ -1,0 +1,29 @@
+@include media-breakpoint-up(lg) {
+    body.sidebar-fixed{
+        & .app-header + .app-body .sidebar {
+            height: calc(100vh - 45px);
+        }
+
+        & .sidebar{
+            width: 365px;
+            & .sidebar-nav, & .nav{
+                width: 100%;
+            }
+            & .nav .nav-item{
+                padding-left: 16px;
+                padding-right: 40px;
+            }
+        }
+    }
+
+    .sidebar .nav .nav-link:hover{
+        background-color: transparent;
+        i{
+            color: $coreui-blue;
+        }
+    }
+
+    body.sidebar-lg-show.sidebar-fixed .main, body.sidebar-lg-show.sidebar-fixed .app-footer, body.sidebar-show.sidebar-fixed .main, body.sidebar-show.sidebar-fixed .app-footer{
+        margin-left: 350px !important;
+    }
+}

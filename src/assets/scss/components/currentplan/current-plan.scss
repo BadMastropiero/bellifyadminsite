@@ -1,0 +1,40 @@
+.CurrentPlan {
+    border: 2px solid #ffe5b4;
+    background-color: #ffffff;
+    max-width: 1496px;
+    margin-bottom: 30px;
+    &:hover {
+        border: 2px solid #eeeeee;
+    }
+    &-section1 {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 178px;
+        margin-left: 99px;
+        margin-right: 208px;
+    }
+    &-section {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 178px;
+        margin-right: 106px;
+        width: 272px;
+    }
+    &-name {
+        font-size: 30px;
+        font-weight: 500;
+        width: 100px;
+    }
+    &-state {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    &-status {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

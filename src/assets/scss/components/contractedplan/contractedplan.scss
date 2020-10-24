@@ -1,0 +1,80 @@
+
+.ContractedPlan{
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    &-header{
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &-info{
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+  .ContractedPlan{
+    margin-top: 30px;
+  }
+  
+  .CardBox{
+    align-items: center;
+    background-color: $white;
+    border: 2px solid #FFE5B4;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    height: 269px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  .CardHeader{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    padding-top: 35px;
+    &-name{
+      margin-top: 13px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &-cropper{
+      width: 62px;
+      height: 62px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+    &-img{
+      display: inline;
+      height: 100%;
+      width: auto;
+    }
+  }
+  .CardBody{
+    &-content{
+      align-items: center;
+      border-bottom: 1px solid $border-bottom;
+      color: $black;
+      display: flex;
+      flex-direction: column;
+      font-size: 12px;
+      font-family: $text;
+      justify-content: center;
+      padding-bottom: 15px;
+      text-align: center;
+      width: 300px;
+    }
+    &-email{
+      margin-bottom: 3px;
+      margin-top: 13px;
+    }
+  }
+  
+  .UserRow .RowUser{
+    max-width: 1500px;
+  }
+  

@@ -1,0 +1,78 @@
+.Select{
+    border: 1px solid $border-bottom;
+    padding-top: 10px;
+    padding-left: 15px;
+    position: relative;
+    height: 50px;
+    margin-bottom: 10px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('#{$img-url}/shipping/desplegable.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right 20px top 50%, 0 0;
+    flex-basis: 50%;
+
+    &.facture{
+      margin-left: 15px;
+      width: 450px;
+    }
+
+    &.margin{
+        margin-bottom: 21px;
+    }
+
+    &.myAccount{
+        max-width: 136px;
+        width: 100%;
+        margin-right: 17px;
+}
+
+    &.marginRight{
+        width: 30%;
+        border-radius: 6px;
+        margin-right: 5px;
+    }
+
+    &-text{
+        font-family: $text;
+        font-size: 10px;
+        font-weight: 300;
+        position: absolute;
+        margin-bottom: 5px;
+
+        &.zone{
+            top: 15px;
+            z-index: 100;
+            font-size: 12px;
+            font-weight: 500;
+            color: $text-gray;
+        }
+    }
+
+    &-input{
+        width: 95%;
+        border: none;
+        font-family: $text;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 14px;
+        position: absolute;
+        top: 11px;
+        left: 15px;
+        -webkit-appearance: none;
+
+        &:focus{
+        outline: none;
+        }
+
+        &.width{
+            width: 83%;
+        }
+    }
+
+    &-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+}

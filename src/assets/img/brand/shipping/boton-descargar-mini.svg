@@ -1,0 +1,17 @@
+<svg id="boton-descargar-mini" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_36" data-name="Rectangle 36" width="11" height="12.91" fill="#535353"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_17" data-name="Ellipse 17" cx="11.5" cy="11.5" r="11.5" fill="#ffe4b4"/>
+  <g id="Group_44" data-name="Group 44" transform="translate(6.353 4.384)">
+    <g id="Group_43" data-name="Group 43" clip-path="url(#clip-path)">
+      <path id="Path_77" data-name="Path 77" d="M6.24,14.48a.564.564,0,0,1-.332-.108l-3.972-2.89a.565.565,0,1,1,.664-.913l3.64,2.649L9.88,10.569a.565.565,0,1,1,.664.913l-3.973,2.89a.559.559,0,0,1-.332.108" transform="translate(-0.741 -4.553)" fill="#535353"/>
+      <path id="Path_78" data-name="Path 78" d="M9.3,9.927a.564.564,0,0,1-.565-.565V.565a.565.565,0,1,1,1.129,0v8.8a.564.564,0,0,1-.565.565" transform="translate(-3.802 0)" fill="#535353"/>
+      <path id="Path_79" data-name="Path 79" d="M10.436,21.989H.565a.565.565,0,1,1,0-1.129h9.871a.565.565,0,1,1,0,1.129" transform="translate(0 -9.08)" fill="#535353"/>
+      <path id="Path_80" data-name="Path 80" d="M18.044,20.065a.564.564,0,0,1-.565-.565V17a.565.565,0,0,1,1.129,0v2.5a.565.565,0,0,1-.565.565" transform="translate(-7.608 -7.155)" fill="#535353"/>
+      <path id="Path_81" data-name="Path 81" d="M.565,20.065A.564.564,0,0,1,0,19.5V17a.565.565,0,0,1,1.129,0v2.5a.564.564,0,0,1-.565.565" transform="translate(0 -7.155)" fill="#535353"/>
+    </g>
+  </g>
+</svg>

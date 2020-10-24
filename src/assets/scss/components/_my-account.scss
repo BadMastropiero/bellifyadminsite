@@ -1,0 +1,232 @@
+@import "../main";
+.Card{
+    &-account{
+        padding-top: 26px;
+        padding-left: 20px;
+        padding-right: 24px;
+        background-color: $white;
+        margin-bottom: 10px;
+
+        &.cardCollapse{
+            height: 60px;
+            overflow-y: hidden;
+        }
+    }
+
+    &-accountWrapperTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 7px;
+
+        &.margin{
+            margin-bottom: 30px;
+        }
+    }
+
+    &-accountTitle{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: $text;
+        color: $text-gray;
+        margin-bottom: 8px;
+    }
+
+    &-accountText{
+        font-size: 12px;
+        width: 100%;
+        max-width: 635px;
+        font-weight: 300;
+        font-family: $text;
+
+        &.maxWidth{
+            max-width: 1310px;
+        }
+
+        &.margin{
+            margin-bottom: 38px;
+        }
+    }
+
+    &-accountWrapperOption{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &-accountBodyWrapper{
+        padding-bottom: 32px;
+        border-bottom: 1px solid $border-bottom;        
+
+        &.padding{
+            padding-bottom: 37px;
+        }
+
+        &.facture{
+          border: none;
+        }
+    }
+
+    &-accountPayMethod{
+        border: 3px solid $border-payMethod;
+        padding: 15px 10px 7px 10px;
+        margin-bottom: 20px;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 65px;
+            left: 0;
+            width: 100%;
+            background-color: $border-bottom;
+            height: 1px;
+        }
+    }
+
+    &-accountPayMethodWrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 8px;
+        padding-bottom: 21px;
+    }
+
+    &-accountPayMethodName{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: $text;
+        color: $text-gray;
+        margin-left: 22px;
+        margin-bottom: 0;
+    }
+
+    &-accountTextPrincipal{
+        font-size: 10px;
+        font-weight: 300;
+        font-family: $text;
+        margin-bottom: 0;
+
+        &.underline{
+            text-decoration: underline;
+        }
+    }
+
+    &-tableWrapper{
+        padding-bottom: 27px;
+        margin-bottom: 27px;
+        border-bottom: 1px solid $border-bottom;
+    }
+
+    &-sectionForm{
+        padding-bottom: 26px;
+        border-bottom: 2px solid $bg-gray;
+        margin-bottom: 20px;
+    }
+
+    &-text{
+        font-size: 12px;
+        margin-bottom: 27px;
+        font-size: 12px;
+        font-family: $text;
+        font-weight: 500;
+
+        &.lessMargin{
+            margin-bottom: 13px;
+        }
+
+        &.email{
+            font-size: 10px;
+            font-weight: 300;
+            margin-bottom: 14px;
+
+        }
+
+    }
+        &-flexRow{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        &-wrapImage{
+            min-width: 70Px;
+            height: 70px;
+            border: 2px solid $border-bottom;
+            border-radius: 5px;
+        }
+        &-labelImage{
+            margin: 0;
+            color: $white;
+            background-color: $bg-yellow;
+            padding: 10px 18px;
+            border-radius: 30px;
+            margin-left: 11px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border: 1px solid $bg-yellow;
+            font-family: $text;
+            font-size: 12px;
+
+            &.facture{
+              height: 35px;
+              padding: 7px 0 0 10px;
+              width: 96px;
+              font-size: 12px;
+              font-weight: 600;
+            }
+        }
+
+        &-button{
+            margin-left: 5px;
+        }
+
+        &-iconUpload{
+            width: 15px;
+            height: 15px;
+        }
+
+        &-iconForm{
+            width: 35px;
+            height: 35px;
+        }
+}
+
+
+.i-updateBill {
+    &:before {
+      background-image: url('#{$img-url}/myAccount/boton-factura-mini.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      content: "";
+      display: block;
+      height: 30px;
+      margin: 0 auto;
+      width: 30px;
+    }
+  }
+
+  .i-searchIcon{
+    background-image: url('#{$img-url}/myAccount/boton-buscar-mini.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
+  }
+
+  .CardFooterAccount{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .Card-accountText{
+        margin-bottom: 0;
+    }
+  }

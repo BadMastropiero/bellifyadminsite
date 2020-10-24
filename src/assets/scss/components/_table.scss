@@ -1,0 +1,331 @@
+
+.Table{
+    font-size: 12px;
+    border-collapse: collapse;
+    margin-bottom: 0;
+    width: 100%;
+
+    &-cardTable{
+        background-color: $white;
+        border-radius: 8px;
+        font-family: $text;
+        margin-bottom: 17px;
+        padding: 25px;
+        position: relative;
+
+        &.bgGray{
+            background-color: $bg-gray;
+
+            &.height{
+                height: 60px;
+                overflow-y: hidden;
+            }
+        }
+    }
+
+    &-titleTable{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+
+        &.date{
+            margin-bottom: 37px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+
+    &-tableColumn{
+        padding-left:20px;
+        padding-right: 20px;
+        font-weight: 500;
+        font-size: 12px;
+        font-family: $text;
+        height: 40px;
+        position: relative;
+
+        &.options{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &.paddingNone{
+            padding: 0;
+        }
+        &.actions{
+            width: 147px;
+        }
+        &.state{
+            width: 82px;
+        }
+    }
+
+    &-tableRow{
+        border-bottom: 2px solid $table-row;
+
+        &.borderNone{
+            border: none;
+        }
+
+        &.borderTop{
+            border-top: 2px solid $table-row;
+        }
+
+    }
+
+    &-addRegister{
+        border: none;
+        padding: 11px 24px;
+        background-color: $bg-yellow;
+        border-radius: 30px;
+        margin-left: auto;
+        display: block;
+        // margin-bottom: 18px;
+        color: $white;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &-tableOption{
+        background-color: $white;
+        border: none;
+        padding: 0; 
+        &.margin{
+            margin: 0 3px;
+        }
+    }
+
+    &-descriptionTable{
+        color: $text-gray;
+        font-size: 12px;
+        margin-bottom: 39px;
+        font-family: $text;
+        font-weight: 300;
+        max-width: 637px;
+        width: 100%;
+
+        &.red{
+            color: $button-close-red;
+            max-width: 998px;
+            margin-bottom: 0;
+        }
+    }
+
+    &-tableStatus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 93px;
+        max-width: 93px;
+        height: 27px;
+        border-radius: 30px;
+
+        &.validate{
+            border: 1px solid $validate;
+        }
+
+        &.revision{
+            border: 1px solid $revision;
+        }
+    }
+
+    &-tableFoot{
+        background-color: $table-foot;
+        color: $white;
+    }
+
+    &-textDecoration{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}
+
+.TableHeader{
+    background-color: $border-bottom;
+
+    &.bgWhite{
+        background-color: $white;
+    }
+}
+
+.TableFooter{
+    background-color: $table-foot;
+    color: $white;
+}
+
+.Table{
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-bottom: 0;
+    width: 100%;
+
+    &-cardTable{
+        background-color: $white;
+        border-radius: 8px;
+        font-family: $text;
+        margin-bottom: 17px;
+        padding: 25px;
+        position: relative;
+
+        &.bgGray{
+            background-color: $bg-gray;
+
+            &.height{
+                height: 60px;
+                overflow-y: hidden;
+            }
+        }
+    }
+
+    &-titleTable{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: $text-gray;
+
+        &.date{
+            margin-bottom: 37px;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        &.total{
+            margin-bottom: 37px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+
+    &-tableColumn{
+        padding-left:20px;
+        font-weight: 500;
+        font-size: 12px;
+        font-family: $text;
+        height: 40px;
+        position: relative;
+        color: $text-gray;
+
+        &.options{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &.paddingNone{
+            padding: 0;
+        }
+        &.size{
+            font-size: 16px;
+            font-weight: 600;
+            text-align: end;
+            color: $white;
+        }
+    }
+
+    &-tableRow{
+        border-bottom: 2px solid $table-row;
+        color: $text-gray;
+
+        &.borderNone{
+            border: none;
+        }
+
+        &.borderTop{
+            border-top: 2px solid $table-row;
+        }
+
+    }
+
+    &-addRegister{
+        border: none;
+        padding: 11px 24px;
+        background-color: $bg-yellow;
+        border-radius: 30px;
+        margin-left: auto;
+        display: block;
+        // margin-bottom: 18px;
+        color: $white;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &-tableOption{
+        background-color: $white;
+        border: none;
+
+        &.margin{
+            margin: 0 3px;
+        }
+    }
+
+    &-descriptionTable{
+        color: $text-gray;
+        font-size: 12px;
+        margin-bottom: 39px;
+        font-family: $text;
+        font-weight: 300;
+        max-width: 637px;
+        width: 100%;
+
+        &.red{
+            color: $button-close-red;
+            max-width: 998px;
+        }
+    }
+
+    &-tableStatus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 93px;
+        max-width: 93px;
+        height: 27px;
+        border-radius: 30px;
+        color: $text-gray;
+
+        &.validate{
+            border: 1px solid $validate;
+        }
+
+        &.revision{
+            border: 1px solid $revision;
+        }
+    }
+
+    &-tableFoot{
+        background-color: $table-foot;
+        color: $white;
+    }
+
+    &-textDecoration{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}
+
+.TableHeader{
+    background-color: $border-bottom;
+
+    &.bgWhite{
+        background-color: $white;
+    }
+}
+
+.TableFooter{
+    background-color: $table-foot;
+    color: $white;
+}
+
+.i-desplegable {
+    &:before {
+        background-image: url('#{$img-url}/shipping/desplegable.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        content: "";
+        height: 3px;
+        width: 6px;
+        margin-left: 16px;
+        position: absolute;
+        top: 19px;
+    }
+}
+

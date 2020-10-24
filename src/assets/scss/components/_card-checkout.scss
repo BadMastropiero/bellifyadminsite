@@ -1,0 +1,111 @@
+@import "../base/variables";
+
+.Card{
+    position: relative;
+    &-headerWrapperCheckout{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    &-buttonLess{
+        align-items: center;
+        background-color: $bg-buttonLess;
+        border: 1px solid $bg-buttonLess;
+        border-radius: 50%;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        height: 23px;
+        justify-content: center;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 23px;
+
+        &.yellow{
+            position: unset;
+            border: 1px solid $bg-yellow;
+            background-color: $bg-yellow;
+        }
+    }
+
+    &-checkoutTitle{
+        font-size: 16px;
+        color: $text-gray;
+        font-family: $text;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    &-checkoutHeaderText{
+        font-size: 12px;
+        font-weight: 300;
+        font-family: $text;
+        margin-bottom: 0px;
+    }
+
+    &-checkoutBodyText{
+        display: block;
+        font-size: 12px;
+        font-family: $text;
+        font-weight: 300;
+        color: $text-gray;
+    }
+
+    &-checkoutBorder{
+        padding-bottom: 44px;
+        border-bottom: 1px solid $border-bottom;
+        margin-bottom: 15px;
+
+        &.account{
+            padding-bottom: 40px;
+        }
+    }
+
+    &-checkoutBodyWrapper{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &-checkoutWrapperButton{
+        display: flex;
+        justify-content: flex-end;
+        &.facture{
+          border-top: 1px solid $border-gray;
+          padding-top: 16px;
+          padding-bottom: 14px;
+          margin: 34px 36px 0  36px
+        }
+    }
+
+    &-checkoutButton{
+        padding: 12px 23px 12px 23px;
+        background-color: $bg-red;
+        color: $white;
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: $text;
+        border: 1px solid $bg-red
+    }
+
+    &-checkoutFormWrapper{
+        position: relative;
+    }
+
+    &-checkoutFormTitle{
+        font-size: 12px;
+        font-family: $text;
+        font-weight: 700;
+        margin-bottom: 21px;
+
+        &.margin{
+            margin-top: 15px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+<svg id="Grupo_240" data-name="Grupo 240" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="158" height="158" viewBox="0 0 158 158">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Elipse_48" data-name="Elipse 48" cx="79" cy="79" r="79" transform="translate(0 -75.19)"/>
+    </clipPath>
+  </defs>
+  <circle id="Elipse_47" data-name="Elipse 47" cx="79" cy="79" r="79" fill="#ffd899"/>
+  <g id="Grupo_237" data-name="Grupo 237">
+    <g id="Grupo_236" data-name="Grupo 236" transform="translate(0 75.19)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_281" data-name="Rectángulo 281" width="157.91" height="82.81" fill="#ffcd76"/>
+    </g>
+  </g>
+  <ellipse id="Elipse_49" data-name="Elipse 49" cx="38.26" cy="11.07" rx="38.26" ry="11.07" transform="translate(40.74 87.51)" fill="#67cfcc"/>
+  <ellipse id="Elipse_50" data-name="Elipse 50" cx="43.15" cy="12.48" rx="43.15" ry="12.48" transform="translate(35.85 81.37)" fill="#9be8e4"/>
+  <g id="Grupo_239" data-name="Grupo 239">
+    <path id="Trazado_365" data-name="Trazado 365" d="M101.79,97.72H56.21a4.165,4.165,0,0,1-4.15-4.15V88.54a.745.745,0,0,1,.74-.74h52.41a.745.745,0,0,1,.74.74v5.03A4.174,4.174,0,0,1,101.79,97.72Z" fill="#f7b452"/>
+    <path id="Trazado_366" data-name="Trazado 366" d="M103.6,76.43H54.4a.96.96,0,0,0-.96.96v1.97a.96.96,0,0,0,.96.96h49.21a.96.96,0,0,0,.96-.96V77.39A.982.982,0,0,0,103.6,76.43Z" fill="#ff6866"/>
+    <path id="Trazado_367" data-name="Trazado 367" d="M96.57,87.81h4.73a3.162,3.162,0,0,0,3.15-3.15V83.48a3.152,3.152,0,0,0-1.47-2.66C102,84.06,98.84,86.46,96.57,87.81Z" fill="#8c401f"/>
+    <path id="Trazado_368" data-name="Trazado 368" d="M103.56,76.56H54.94c-.94-.68-1.5-1.24-1.5-1.93V69.5a1.25,1.25,0,0,1,1.25-1.25h48.62a1.25,1.25,0,0,1,1.25,1.25v5.13C104.56,75.32,104,75.88,103.56,76.56Z" fill="#ff4141"/>
+    <path id="Trazado_369" data-name="Trazado 369" d="M106.69,71.05c-.01-.01-2.19-4.35-2.19-4.35h-51l-2.19,4.35c-1.12,2.23,2.54,2.75,3.72,2.03.48-.3.84-.77,1.31-1.08,1.51-1.01,3.2-.42,4.49.73,0,0,4.23,4.53,8.16.36,1.31-1.39,2.91-2.14,4.68-1.2,1.6.86,2.82,2.53,4.52,3.17a3.5,3.5,0,0,0,3.45-.76c.65-.55,1-1.4,1.72-1.86a4.361,4.361,0,0,1,5.68.65c3.93,4.17,8.16-.36,8.16-.36,1.29-1.15,2.97-1.74,4.49-.73.47.31.83.78,1.31,1.08C104.15,73.8,107.81,73.28,106.69,71.05Z" fill="#67cfcc"/>
+    <path id="Trazado_370" data-name="Trazado 370" d="M52.5,67.46h0c0-9.96,11.44-21.14,25.99-21.14h0c14.55,0,26.93,11.18,26.93,21.14H52.5Z" fill="#f7b452"/>
+    <g id="Grupo_238" data-name="Grupo 238">
+      <path id="Trazado_371" data-name="Trazado 371" d="M69.07,53.63c-.53.63-1.19.95-1.47.71s-.09-.94.44-1.57,1.19-.95,1.47-.71S69.59,53,69.07,53.63Z" fill="#fff"/>
+      <path id="Trazado_372" data-name="Trazado 372" d="M88.14,53.78c-.71.41-1.44.48-1.63.16s.24-.92.95-1.33,1.44-.48,1.63-.16S88.85,53.37,88.14,53.78Z" fill="#fff"/>
+      <ellipse id="Elipse_51" data-name="Elipse 51" cx="1.49" cy="0.67" rx="1.49" ry="0.67" transform="translate(77.155 54.817) rotate(-77.978)" fill="#fff"/>
+      <path id="Trazado_373" data-name="Trazado 373" d="M74.34,50.62c.54.62.76,1.32.48,1.56s-.95-.06-1.49-.67-.76-1.32-.48-1.56S73.8,50,74.34,50.62Z" fill="#fff"/>
+      <path id="Trazado_374" data-name="Trazado 374" d="M83.61,50.81c.76.3,1.27.83,1.13,1.18s-.87.38-1.63.08-1.27-.83-1.13-1.18S82.85,50.5,83.61,50.81Z" fill="#fff"/>
+    </g>
+    <path id="Trazado_375" data-name="Trazado 375" d="M103.1,87.81H54.9a1.848,1.848,0,0,1-1.84-1.84V82.18a1.848,1.848,0,0,1,1.84-1.84h48.2a1.848,1.848,0,0,1,1.84,1.84v3.79A1.848,1.848,0,0,1,103.1,87.81Z" fill="#ff4141"/>
+    <path id="Trazado_376" data-name="Trazado 376" d="M91.67,84.85l7.97-8.27-38.79-.02C60.84,76.56,78.5,77.78,91.67,84.85Z" fill="#f7b452"/>
+  </g>
+  <path id="Trazado_377" data-name="Trazado 377" d="M17.85,100c0-23.833,10.658-55.3,36.562-67.874a52.133,52.133,0,0,1,9.834-3.571A59.262,59.262,0,0,1,79,26.78c44,0,61.15,42.83,61.15,73.22,0,0-8.14,26.67-61.15,26.67C26.17,126.66,17.85,100,17.85,100Z" fill="#fff" opacity="0.5"/>
+  <circle id="Elipse_52" data-name="Elipse 52" cx="4.02" cy="4.02" r="4.02" transform="translate(74.98 22.75)" fill="#fff"/>
+</svg>

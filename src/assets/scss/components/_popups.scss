@@ -1,0 +1,52 @@
+.Modal{
+    &.popups{
+        max-width: 465px !important;
+    }
+    &.monthlyPayments{
+        max-width: 1486px !important;
+    }
+    &-deleteTitle{
+        color: $white;
+        font-family: $text;
+        font-weight: 500;
+        font-size: 16px;
+        max-width: 321px;
+        width: 100%;
+    }
+
+    &-wrapperPopups{
+        padding: 32px 26px 0px 26px;
+    }
+
+    &-popupsText{
+        border-bottom: 1px solid $bg-buttonLess;
+        padding-bottom: 32px;
+        font-size: 12px;
+        font-family: $text;
+        font-weight: 600;
+    }
+
+    &-wrapperButtonsOptions{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    &-buttonAction{
+        background-color: $buttonAction;
+        padding: 12px 24px;
+        border-radius: 50px;
+        border: 1px solid $buttonAction;
+        color: $white;
+        font-family: $text;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 5px;
+        &.perform{
+            background-color: $bg-red;
+            border: 1px solid $bg-red;
+        }
+    }
+}
